@@ -1,0 +1,38 @@
+.patients{
+
+    display: flex;
+    border: 100vh black;
+
+
+    justify-content: space-between;
+    flex-direction: row;}
+.item{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 2px;
+    margin-top: 10px;
+   
+}
+.item-1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px; padding: 2px;
+    margin-top: 10px;
+}
+.item-2{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px; padding: 2px;
+    margin-top: 10px;
+}
+.item-3{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px; padding: 2px;
+    margin-top: 10px;
+}

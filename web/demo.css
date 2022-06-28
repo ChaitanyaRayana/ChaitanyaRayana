@@ -1,0 +1,83 @@
+#heading {
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 560px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+.form-card {
+  width: 90%;
+  max-width: 42rem;
+  padding: 1rem;
+  border-radius: 14px;
+  margin: 3rem auto;
+  background-color: white;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  background-color: #240370;
+  color: white;
+  border: 1px solid #240370;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  font: inherit;
+  background-color: #4815be;
+  color: white;
+  border: 1px solid #4815be;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

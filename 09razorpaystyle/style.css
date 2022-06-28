@@ -1,0 +1,21 @@
+body{
+    background-color: #1d1d1d;
+
+}
+header{
+    height: 80vh;
+    background-image: url(images/bird.jpg);
+    background-position: top;
+    background-size: cover;
+    clip-path:  polygon(48% 26%, 92% 53%, 98% 100%, 0 93%, 0 0);
+}
+
+
+header
+ h1{
+    color: #fff;
+    font-size: 70px;
+    padding: 10% 10%;
+
+}
+

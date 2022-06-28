@@ -1,0 +1,53 @@
+HTML Layout:
+header: header of the documemt
+<nav>: used for navigation 
+<section>: section of the documemt
+<article>: Independent content
+<aside>: aside of the document like sidebar
+footer: footer of the document
+details: additional details of the document
+summary: heading of details element
+
+h1: heading
+p: para tag
+<a>: navigating
+
+div: grouping similar elements block wise
+span: inline
+
+Identifying an element:
+Id: Unique 
+Class: Similar property for multiple elements
+
+3 ways to add style:
+inline
+internal
+external
+
+Geberally used selectors:
+element
+Class: denoted by .
+Id: denoted by #
+
+br: line break
+
+CSS Units:
+em: related to the font size of the element (2em: two time the size of the current font)
+ex: related to the x-height of current font
+ch: relative to width of zero
+rem: related to the font size of root element
+vw: related to 1% of the width of the viewpoint
+vh: related to 1% of the height of the viewpoint
+vmin: related to 1% of the viewpoint's smaller dimension
+vmax: related to 1% of the viewpoint's larger dimension
+%: related to the parent element
+px
+
+Pseudo class:
+hover, active, visited, link
+
+CSS Box Model:
+Margin => border => padding => actual content
+
+
+

@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(90deg,#7112,#120343);
+    color: yellowgreen;
+   height: 100vh;
+   font-size: 20px;
+
+}
+ *{
+    color:#fff;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+    
+.container>div{
+    color: #fff;
+    background-color:rgba(0,0,255,0.2);
+    border: 1px thick #120343;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container>div:hover{
+
+    background-color: rgba(0,255,0,0.2);
+}

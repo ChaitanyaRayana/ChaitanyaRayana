@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+body{
+    background: linear-gradient(90deg,#FFFFFF 30%,#3a47d5 70%);
+    color: #1f111f;
+    border: 100vh;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 15%;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Birthstone;
+    
+}
+span{
+    font-weight: 700;
+    font-stretch: narrower;
+}
+p{
+    font-size: 30px;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+    display: block;
+    
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.btn{
+    background-color: transparent;
+    border: 3px solid rgb(23, 29, 23)#FFFFFF1f;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.2em 2.5em;
+    cursor: grab;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.btn:hover{
+    color:#ffffff;
+    outline: 0;
+}
+.lco{
+    transition: box-shadow 300ms ease-in-out,color 300ms ease-in-out;
+}
+.lco:hover{
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+font-size: 2px;
+display: block;
+margin-top: 200px;
+font-weight: 100;
+
+}
